@@ -8,7 +8,7 @@ class Solution(object):
         """
         PseudoCode:
             -sort by first element reversed, then second element ascending
-                -sort by the first element because you want to work with the taller people first since shorter people don't matter                  for their position
+                -sort by the first element because you want to work with the taller people first since shorter people don't matter for their relative position
             [7,0], [7,1], [6,1], [5,0], [5,2], [4,4]
             -empty answer array
             -loop through the above sorted array
